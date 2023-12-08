@@ -1,0 +1,45 @@
+p{
+    color: red;
+    text-decoration: underline;
+}
+
+ul{
+    font-size: larger;
+}
+
+/* Selecciona mediante selector de Clase*/
+.parrafoAzul {
+    color: blue;
+    font-weight: 600;
+    font-size: 30px;
+}
+
+/* Selecciona mediante selector de ID*/
+#parrafoAmarillo{
+    color: rgb(13, 233, 148);
+    font-size: 32px;
+}
+
+
+div{
+    border: 1px solid red;
+    width: 160;
+    height: 50px;
+}
+
+.contenedorNegro{
+    padding: 20px; /*para todas la direcciones;*/
+    padding: 10px 50px; /*Ariba - abajo, iz - der*/
+    padding: 20px 40px 60px 120px; /*Ariba , abajo , iz , der*/
+    border: 1px solid red;
+}
+
+div.contedorNegro{
+    background-color: black;
+    color: aliceblue;
+    margin: 30px;
+}
+
+div.contenedorNegro a{
+    color: white;
+}

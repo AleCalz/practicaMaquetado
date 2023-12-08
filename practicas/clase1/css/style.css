@@ -1,0 +1,39 @@
+html{
+    scroll-behavior: smooth;
+}
+body{
+    background: #1c1e1f;
+    color: #d1cdc7;
+    font-family: Circular,Helvetica,Arial,sans-serif;
+    margin: 70px 70px 0px 70px;
+}
+
+ol li a{ 
+    color: #7DEDA5;
+    
+}
+
+
+ol{
+    color: #7DEDA5;
+    
+}
+
+li{
+    padding: 8px;
+}
+
+p{
+    font-size: 16px;
+    margin: 0 0 1em;
+}
+
+.subtitulo{
+    color: #d1cdc7;
+    font-weight: 700;
+}
+
+.titulo{
+    color: #d1cdc7;
+
+}
