@@ -1,0 +1,134 @@
+
+body {
+   font-family: 'Dhurjati', sans-serif;
+}
+
+/* primera etiqueta hermana del h3, solo aplica a la primera que encuantre
+hacia abajo */
+#selectorHermano h3 + p { 
+color: brown;
+font-size: 28px;
+}
+/* cualquier etiqueta button que sea hermana de un h5, buscando hacia abajo */
+#selectorHermanoGeneral h5 ~ button{
+    background-color: blue;
+    color: white;
+}
+
+#selectorHijo > p{
+    text-decoration: underline;
+    font-style: italic;
+}
+
+#selectorHijo > div > a {
+    font-size: 50px;
+}
+
+/* Selector de Atributo */
+a[href="https://www.google.com"]{
+    color: green;
+}
+
+input[type="text"]{
+    width: 400px;
+    border-radius: 10px;
+    margin: 20px;
+    
+}
+/* multiselector de clases */
+#selectorHermano, 
+#selectorHermanoGeneral, 
+#selectorHijo, 
+#selectorAtributo {
+    background-color: #333;
+    width: 600px;
+    margin: 20px;
+}
+/* Pesudolementos */
+
+.btn {
+    padding: 10px ;
+    background-color: transparent;
+    border: 1px solid rgb(70,70,200);
+    color: rgb(70,70,200);
+    cursor: pointer;
+}
+
+.btn:hover{
+    background-color: rgb(70,70,200) ;
+    color: white;
+}
+
+.imgHover:hover {
+    filter: sepia(.5);
+}
+
+/* enlaces */
+
+a:visited {
+    color: aqua;
+}
+a:link {
+    color: darkgoldenrod;
+}
+
+a:active{
+    color: yellow;
+    text-decoration: none;
+}
+
+/* Lista cajas */
+li{
+    list-style-type: none;
+    margin: 10px;
+    text-align: center;
+}
+/* seleccionar el primer hijo */
+.listaCajas li:first-child{
+    background-color: black;
+    height: 80px;
+    width: 80px;
+    color: white;
+}
+
+/* seleccionar el ultimo hijo */
+.listaCajas li:last-child{
+    background-color: black;
+    height: 80px;
+    width: 80px;
+    color: white;
+    
+}
+
+.listaCajas li:nth-child(3){
+    width: 200px;
+}
+
+.listaCajas li:nth-child(4){
+    width: 200px;
+    height: 20px;
+}
+
+.listaCajas li:nth-last-child(4){
+    border-radius: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

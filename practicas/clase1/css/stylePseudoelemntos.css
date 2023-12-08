@@ -1,0 +1,24 @@
+section{
+    width: 400px;
+    height: 30px;
+    margin: 15px;
+    padding: 30px 0px 50px 0px;
+    color: black;
+    background-color: lightgray;
+    text-align: center;
+    border-radius: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif, Times, serif;
+}
+
+.burbuja::before{
+    content: "💬";
+}
+#af1::after{
+    content: "😍";
+}
+#af2::after{
+    content: "🤔";
+}
+#af3::after{
+    content: "👏";
+}
